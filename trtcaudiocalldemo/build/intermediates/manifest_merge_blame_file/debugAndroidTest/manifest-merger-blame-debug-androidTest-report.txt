@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.trtcaudiocalldemo.test" >
+4
+5    <uses-sdk
+5-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:11:5-15:91
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:13:22-53
+13        android:label="Tests for com.tencent.liteav.trtcaudiocalldemo.test"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:15:22-89
+14        android:targetPackage="com.tencent.liteav.trtcaudiocalldemo.test" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:12:22-87
+15    <!-- sdk 网络访问 -->
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- sdk 网络状态获取 -->
+16-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:12:5-67
+16-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- sdk wifi状态获取 -->
+17-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:14:5-79
+17-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- sdk log及配置文件 -->
+18-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:16:5-76
+18-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:18:5-81
+19-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:18:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 摄像头录制 -->
+20-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:19:5-80
+20-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:19:22-77
+21    <uses-permission android:name="android.permission.CAMERA" /> <!-- 音频录制 -->
+21-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:21:5-65
+21-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:21:22-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 音频改变音量类型 -->
+22-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:23:5-71
+22-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:23:22-68
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 音频获取蓝牙耳机状态 -->
+23-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:25:5-80
+23-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:25:22-77
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:27:5-68
+24-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:27:22-65
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[com.tencent.imsdk:imsdk:4.8.50] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a3f557d65f8549665bc48438d84e7fc1\imsdk-4.8.50\AndroidManifest.xml:11:5-81
+25-->[com.tencent.imsdk:imsdk:4.8.50] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a3f557d65f8549665bc48438d84e7fc1\imsdk-4.8.50\AndroidManifest.xml:11:22-78
+26
+27    <application
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:7:5-9:19
+28        android:allowBackup="true"
+28-->[com.tencent.imsdk:imsdk:4.8.50] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a3f557d65f8549665bc48438d84e7fc1\imsdk-4.8.50\AndroidManifest.xml:17:9-35
+29        android:debuggable="true"
+29-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:7:18-43
+30        android:label="@string/app_name"
+30-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:30:9-41
+31        android:supportsRtl="true"
+31-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:31:9-35
+32        android:usesCleartextTraffic="true" >
+32-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:32:9-44
+33        <uses-library android:name="android.test.runner" />
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:8:9-60
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5496202813012901316.xml:8:23-57
+34
+35        <activity
+35-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:66
+36            android:name="com.tencent.liteav.trtcaudiocalldemo.ui.TRTCAudioCallSelectContactActivity"
+36-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-102
+37            android:launchMode="singleTop"
+37-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-43
+38            android:screenOrientation="portrait"
+38-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-49
+39            android:theme="@style/Theme.AppCompat.NoActionBar" />
+39-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-63
+40        <activity
+40-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-21:66
+41            android:name="com.tencent.liteav.trtcaudiocalldemo.ui.TRTCAudioCallActivity"
+41-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-89
+42            android:launchMode="singleTop"
+42-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-43
+43            android:screenOrientation="portrait"
+43-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-49
+44            android:theme="@style/Theme.AppCompat.NoActionBar" />
+44-->[__tested_artifact__::trtcaudiocalldemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\trtcaudiocalldemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-63
+45        <activity
+45-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-23:20
+46            android:name="com.tencent.liteav.login.ui.LoginActivity"
+46-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
+47            android:screenOrientation="portrait"
+47-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-49
+48            android:theme="@style/Theme.AppCompat.NoActionBar" >
+48-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-63
+49            <intent-filter>
+49-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-22:29
+50
+51                <!-- <action android:name="android.intent.action.MAIN" /> -->
+52                <action android:name="com.tencent.liteav.action.startLogin" />
+52-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-79
+52-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-76
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-76
+54-->[:login] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:27-73
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:10:9-15:75
+58            android:name="com.blankj.utilcode.util.PermissionUtils$PermissionActivity"
+58-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:11:13-87
+59            android:configChanges="orientation|keyboardHidden|screenSize"
+59-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:12:13-74
+60            android:multiprocess="true"
+60-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:13:13-40
+61            android:theme="@style/ActivityTranslucent"
+61-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:14:13-55
+62            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+62-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:15:13-72
+63
+64        <provider
+64-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:17:9-26:20
+65            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+65-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:18:13-80
+66            android:authorities="com.tencent.liteav.trtcaudiocalldemo.test.utilcode.provider"
+66-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:19:13-69
+67            android:exported="false"
+67-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:20:13-37
+68            android:grantUriPermissions="true"
+68-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:21:13-47
+69            android:multiprocess="true" >
+69-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:22:13-40
+70            <meta-data
+70-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:23:13-25:68
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:24:17-67
+72                android:resource="@xml/util_code_provider_paths" />
+72-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:25:17-65
+73        </provider>
+74
+75        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+75-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:28:9-32:19
+75-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:28:18-86
+76            <intent-filter>
+76-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:29:13-31:29
+77                <action android:name="com.tencent.liteav.trtcaudiocalldemo.test.messenger" />
+77-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:30:17-69
+77-->[com.blankj:utilcode:1.25.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6e41a51219b9a3ae0b237aec0915201\utilcode-1.25.9\AndroidManifest.xml:30:25-66
+78            </intent-filter>
+79        </service>
+80
+81        <provider
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21dfc30a9cba77ccf33b28637af07ae8\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+82            android:name="com.squareup.picasso.PicassoProvider"
+82-->[com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21dfc30a9cba77ccf33b28637af07ae8\picasso-2.71828\AndroidManifest.xml:9:13-64
+83            android:authorities="com.tencent.liteav.trtcaudiocalldemo.test.com.squareup.picasso"
+83-->[com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21dfc30a9cba77ccf33b28637af07ae8\picasso-2.71828\AndroidManifest.xml:10:13-72
+84            android:exported="false" />
+84-->[com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21dfc30a9cba77ccf33b28637af07ae8\picasso-2.71828\AndroidManifest.xml:11:13-37
+85
+86        <meta-data
+86-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:26:9-28:38
+87            android:name="android.support.VERSION"
+87-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:27:13-51
+88            android:value="25.4.0" />
+88-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:28:13-35
+89    </application>
+90
+91</manifest>

@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.livepusher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:26:5-60
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:26:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:27:5-70
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:27:19-67
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:29:5-67
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:29:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:30:5-79
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:30:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:31:5-76
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:31:22-73
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:32:5-75
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:32:22-72
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:33:5-69
+18-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:33:22-66
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:34:5-81
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:34:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:35:5-80
+20-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:35:22-77
+21    <uses-permission android:name="android.permission.READ_LOGS" />
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:36:5-68
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:36:22-65
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:37:5-71
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:37:22-68
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:38:5-65
+23-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:38:22-62
+24    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:39:5-79
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:39:22-76
+25    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
+25-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:40:5-79
+25-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:40:22-76
+26    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+26-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:42:5-80
+26-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:42:22-77
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:43:5-68
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:43:22-65
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:45:5-78
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:45:22-75
+29    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+29-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:46:5-79
+29-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:46:22-76
+30    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:48:5-73
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:48:22-70
+31
+32    <application android:theme="@style/AppTheme" >
+32-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:4:5-24:19
+32-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:4:18-49
+33        <activity
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:6:9-9:67
+34            android:name="com.tencent.liteav.demo.livepusher.cameralivepush.CameraPusherActivity"
+34-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:7:13-64
+35            android:configChanges="keyboardHidden|orientation|screenSize"
+35-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:8:13-74
+36            android:windowSoftInputMode="adjustPan|stateHidden" />
+36-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:9:13-64
+37        <activity
+37-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:11:9-13:52
+38            android:name="com.tencent.liteav.demo.livepusher.cameralivepush.QRCodeScanActivity"
+38-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:12:13-62
+39            android:screenOrientation="portrait" />
+39-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:13:13-49
+40
+41        <provider
+41-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:15:9-23:20
+42            android:name="android.support.v4.content.FileProvider"
+42-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:16:13-67
+43            android:authorities="com.tencent.liteav.demo"
+43-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:17:13-58
+44            android:exported="false"
+44-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:18:13-37
+45            android:grantUriPermissions="true" >
+45-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:19:13-47
+46            <meta-data
+46-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:20:13-22:54
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:21:17-67
+48                android:resource="@xml/file_paths" />
+48-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\livepusherdemo\src\main\AndroidManifest.xml:22:17-51
+49        </provider>
+50    </application>
+51
+52</manifest>

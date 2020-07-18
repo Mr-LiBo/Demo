@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+	package
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:2:5-39
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:1-18:12
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:5:5-16:19
+activity#com.tencent.liteav.login.ui.LoginActivity
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:6:9-15:20
+	android:screenOrientation
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:9:13-49
+	android:theme
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:8:13-63
+	android:name
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:7:13-45
+intent-filter#action:name:com.tencent.liteav.action.startLogin+category:name:android.intent.category.DEFAULT
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:10:13-14:29
+action#com.tencent.liteav.action.startLogin
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:12:17-79
+	android:name
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:12:25-76
+category#android.intent.category.DEFAULT
+ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:13:17-76
+	android:name
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml:13:27-73
+uses-sdk
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		ADDED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\login\src\main\AndroidManifest.xml

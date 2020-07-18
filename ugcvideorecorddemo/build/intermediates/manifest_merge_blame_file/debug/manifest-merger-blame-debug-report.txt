@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.videorecord"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:7:5-23:19
+12        <activity
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:8:9-12:58
+13            android:name="com.tencent.liteav.demo.videorecord.TCVideoRecordActivity"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:9:13-50
+14            android:configChanges="keyboardHidden|orientation|screenSize"
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:10:13-74
+15            android:launchMode="singleTask"
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:11:13-44
+16            android:theme="@style/RecordActivityTheme" />
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:12:13-55
+17        <activity
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:13:9-15:77
+18            android:name="com.tencent.liteav.demo.videorecord.TCVideoRecordSmartActivity"
+18-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:14:13-55
+19            android:configChanges="keyboardHidden|orientation|screenSize" />
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:15:13-74
+20        <activity
+20-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:16:9-19:52
+21            android:name="com.tencent.liteav.demo.videorecord.TCVideoSettingActivity"
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:17:13-51
+22            android:configChanges="keyboardHidden|orientation|screenSize"
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:18:13-74
+23            android:screenOrientation="portrait" />
+23-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:19:13-49
+24        <activity
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:20:9-22:52
+25            android:name="com.tencent.liteav.demo.videorecord.TCRecordPreviewActivity"
+25-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:21:13-52
+26            android:screenOrientation="portrait" />
+26-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideorecorddemo\src\main\AndroidManifest.xml:22:13-49
+27    </application>
+28
+29</manifest>

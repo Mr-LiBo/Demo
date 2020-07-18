@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.liteav.demo.videouploader.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.tencent.liteav.demo.videouploader.test"
+        android:targetPackage="com.tencent.liteav.demo.videouploader.test" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 摄像头录制 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 音频录制 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 音频改变音量类型 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 音频获取蓝牙耳机状态 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:debuggable="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.tencent.liteav.demo.videouploader.videopublish.TCVideoPublishActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.tencent.liteav.demo.videouploader.videopublish.TCCompressActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="com.tencent.liteav.demo.videocompress" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.liteav.demo.videouploader.videopublish.pic.TCPicturePublishActivity"
+            android:label="@string/title_activity_txdownload" />
+
+        <receiver android:name="com.tencent.liteav.demo.videouploader.videoupload.impl.TVCNetWorkStateReceiver" >
+            <intent-filter>
+
+                <!-- 检测网络变化的action -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.tencent.liteav.demo.player.activity.SuperPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/superplayer_app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.tencent.liteav.demo.play.action.float.click" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.liteav.demo.player.activity.VodPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.liteav.demo.player.activity.QRCodeScanActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.tencent.liteav.demo.player.reveiver.WebDataReceiver" >
+            <intent-filter>
+                <action android:name="com.tencent.liteav.action.WED_DATA" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
+
+        <activity android:name="com.tencent.qcloud.logutils.LogActivity" />
+    </application>
+
+</manifest>

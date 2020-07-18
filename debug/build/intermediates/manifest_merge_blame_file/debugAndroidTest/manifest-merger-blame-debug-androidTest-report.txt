@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.debug.test" >
+4
+5    <uses-sdk
+5-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:11:5-15:79
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:13:22-53
+13        android:label="Tests for com.tencent.liteav.debug.test"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:15:22-77
+14        android:targetPackage="com.tencent.liteav.debug.test" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:12:22-75
+15
+16    <application android:debuggable="true" >
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:7:5-9:19
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:7:18-43
+17        <uses-library android:name="android.test.runner" />
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:8:9-60
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\debug\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2290775988418862676.xml:8:23-57
+18    </application>
+19
+20</manifest>

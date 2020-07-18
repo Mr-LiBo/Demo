@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.videoediter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:7:5-55:19
+12        <activity
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:8:9-10:52
+13            android:name="com.tencent.liteav.demo.videoediter.TCVideoPickerActivity"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:9:13-50
+14            android:screenOrientation="portrait" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:10:13-49
+15        <activity
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:12:9-23:20
+16            android:name="com.tencent.liteav.demo.videoediter.TCVideoEditerActivity"
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:13:13-50
+17            android:launchMode="singleTop"
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:14:13-43
+18            android:screenOrientation="portrait"
+18-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:15:13-49
+19            android:theme="@style/EditerActivityTheme" >
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:16:13-55
+20            <intent-filter>
+20-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:17:13-22:29
+21                <action android:name="com.tencent.liteav.demo.videoediter" />
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:18:17-78
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:18:25-75
+22                <action android:name="android.intent.action.MAIN" />
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:17-69
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:25-66
+23
+24                <category android:name="android.intent.category.DEFAULT" />
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:17-76
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:27-73
+25            </intent-filter>
+26        </activity>
+27        <activity
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:24:9-35:20
+28            android:name="com.tencent.liteav.demo.videoediter.TCVideoCutActivity"
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:25:13-47
+29            android:launchMode="singleTop"
+29-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:27:13-43
+30            android:screenOrientation="portrait"
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:26:13-49
+31            android:theme="@style/EditerActivityTheme" >
+31-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:28:13-55
+32            <intent-filter>
+32-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:29:13-34:29
+33                <action android:name="com.tencent.liteav.demo.videocut" />
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:30:17-75
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:30:25-72
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:17-69
+34-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:17-76
+36-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:27-73
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:36:9-39:58
+40            android:name="com.tencent.liteav.demo.videoediter.TCVideoEffectActivity"
+40-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:37:13-50
+41            android:screenOrientation="portrait"
+41-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:38:13-49
+42            android:theme="@style/EditerActivityTheme" />
+42-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:39:13-55
+43        <activity
+43-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:41:9-51:20
+44            android:name="com.tencent.liteav.demo.videoediter.TCPictureJoinActivity"
+44-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:42:13-50
+45            android:screenOrientation="portrait"
+45-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:43:13-49
+46            android:theme="@style/PictureTransitionActivityStyle" >
+46-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:44:13-66
+47            <intent-filter>
+47-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:45:13-50:29
+48                <action android:name="com.tencent.liteav.demo.picturejoin" />
+48-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:46:17-78
+48-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:46:25-75
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:17-69
+49-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:19:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:17-76
+51-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:21:27-73
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:52:9-54:61
+55            android:name="com.tencent.liteav.demo.videoediter.TCEditPreviewActivity"
+55-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:53:13-50
+56            android:screenOrientation="portrait" />
+56-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\src\main\AndroidManifest.xml:54:13-49
+57    </application>
+58
+59</manifest>

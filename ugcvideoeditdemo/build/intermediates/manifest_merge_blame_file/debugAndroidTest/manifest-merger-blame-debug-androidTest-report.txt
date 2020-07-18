@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.videoediter.test" >
+4
+5    <uses-sdk
+5-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:11:5-15:90
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:13:22-53
+13        android:label="Tests for com.tencent.liteav.demo.videoediter.test"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:15:22-88
+14        android:targetPackage="com.tencent.liteav.demo.videoediter.test" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:12:22-86
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+16-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+17-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-76
+18-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-75
+19-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.CALL_PHONE" />
+20-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-69
+20-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-66
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
+21-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS" /> -->
+22-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-80
+22-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-77
+23    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-71
+24-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-68
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-65
+25-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-62
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-72
+26-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-69
+27
+28    <uses-feature android:name="android.hardware.camera" />
+28-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-60
+28-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:19-57
+29    <uses-feature android:name="android.hardware.camera.autofocus" />
+29-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-70
+29-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-67
+30
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-81
+31-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-78
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- IMSDK 权限 -->
+32-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-79
+32-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-76
+33    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+33-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-79
+33-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-76
+34    <uses-permission android:name="android.permission.GET_TASKS" />
+34-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-68
+34-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-65
+35    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+35-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-80
+35-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-77
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-81
+36-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-78
+37    <uses-permission android:name="android.permission.VIBRATE" />
+37-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-66
+37-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:22-63
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-68
+38-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-65
+39    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+39-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-78
+39-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-75
+40    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+40-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-71
+40-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-68
+41    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+41-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-74
+41-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:22-71
+42    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+42-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-74
+42-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-71
+43    <uses-permission android:name="android.permission.BLUETOOTH" />
+43-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-68
+43-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:22-65
+44
+45    <application
+45-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:7:5-9:19
+46        android:debuggable="true"
+46-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:7:18-43
+47        android:label="@string/app_name"
+47-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:30:9-41
+48        android:supportsRtl="true"
+48-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:31:9-35
+49        android:usesCleartextTraffic="true" >
+49-->[com.tencent.liteav:LiteAVSDK_Professional:7.4.9211] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\64e0fd9a98de58ba923ba43e978d3dfe\LiteAVSDK_Professional-7.4.9211\AndroidManifest.xml:32:9-44
+50        <uses-library android:name="android.test.runner" />
+50-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:8:9-60
+50-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3633566744375925359.xml:8:23-57
+51
+52        <activity
+52-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:52
+53            android:name="com.tencent.liteav.demo.videoediter.TCVideoPickerActivity"
+53-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-85
+54            android:screenOrientation="portrait" />
+54-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-49
+55        <activity
+55-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-26:20
+56            android:name="com.tencent.liteav.demo.videoediter.TCVideoEditerActivity"
+56-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-85
+57            android:launchMode="singleTop"
+57-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-43
+58            android:screenOrientation="portrait"
+58-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-49
+59            android:theme="@style/EditerActivityTheme" >
+59-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-55
+60            <intent-filter>
+60-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-25:29
+61                <action android:name="com.tencent.liteav.demo.videoediter" />
+61-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+61-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+62                <action android:name="android.intent.action.MAIN" />
+62-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-69
+62-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-76
+64-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:27-73
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-38:20
+68            android:name="com.tencent.liteav.demo.videoediter.TCVideoCutActivity"
+68-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-82
+69            android:launchMode="singleTop"
+69-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-43
+70            android:screenOrientation="portrait"
+70-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-49
+71            android:theme="@style/EditerActivityTheme" >
+71-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-55
+72            <intent-filter>
+72-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-37:29
+73                <action android:name="com.tencent.liteav.demo.videocut" />
+73-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-75
+73-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:25-72
+74                <action android:name="android.intent.action.MAIN" />
+74-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-69
+74-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-76
+76-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:27-73
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-42:58
+80            android:name="com.tencent.liteav.demo.videoediter.TCVideoEffectActivity"
+80-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-85
+81            android:screenOrientation="portrait"
+81-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-49
+82            android:theme="@style/EditerActivityTheme" />
+82-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-55
+83        <activity
+83-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-53:20
+84            android:name="com.tencent.liteav.demo.videoediter.TCPictureJoinActivity"
+84-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-85
+85            android:screenOrientation="portrait"
+85-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-49
+86            android:theme="@style/PictureTransitionActivityStyle" >
+86-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-66
+87            <intent-filter>
+87-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-52:29
+88                <action android:name="com.tencent.liteav.demo.picturejoin" />
+88-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-78
+88-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:25-75
+89                <action android:name="android.intent.action.MAIN" />
+89-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-69
+89-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-76
+91-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:27-73
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:52
+95            android:name="com.tencent.liteav.demo.videoediter.TCEditPreviewActivity"
+95-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-85
+96            android:screenOrientation="portrait" />
+96-->[__tested_artifact__::ugcvideoeditdemo] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideoeditdemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-49
+97        <activity
+97-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:52
+98            android:name="com.tencent.qcloud.ugckit.module.effect.bgm.TCMusicActivity"
+98-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-87
+99            android:screenOrientation="portrait" />
+99-->[:ugckit] E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugckit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-49
+100
+101        <meta-data
+101-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:26:9-28:38
+102            android:name="android.support.VERSION"
+102-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:27:13-51
+103            android:value="25.4.0" />
+103-->[com.android.support:design:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c29919a034469a39ce387144e422d80\design-25.4.0\AndroidManifest.xml:28:13-35
+104
+105        <activity android:name="com.tencent.qcloud.logutils.LogActivity" />
+105-->[com.tencent.qcloud:logUtils:5.4.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a27dc89fea93e53a4a2cabf70920540b\logUtils-5.4.22\AndroidManifest.xml:15:9-76
+105-->[com.tencent.qcloud:logUtils:5.4.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a27dc89fea93e53a4a2cabf70920540b\logUtils-5.4.22\AndroidManifest.xml:15:19-73
+106    </application>
+107
+108</manifest>

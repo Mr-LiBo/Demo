@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gray1">#EBEBEB</color>
+    <color name="c8">#FFFFFF</color>
+    <color name="colorAccent">#0accac</color>
+    <color name="colorGray4">#787878</color>
+    <color name="colorGray7">#D8D8D8</color>
+    <color name="colorGreen">#0accac</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="record_progress">#00f5ac</color>
+    <color name="record_progress_bg">#66000000</color>
+    <color name="record_progress_pending">#10acc0</color>
+    <color name="record_settings_tip">#999999</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="h10">18sp</dimen>
+    <dimen name="h3">11sp</dimen>
+    <dimen name="h4">12sp</dimen>
+    <dimen name="h6">14sp</dimen>
+    <dimen name="h7">15sp</dimen>
+    <dimen name="h8">16sp</dimen>
+    <dimen name="live_btn_size">35dp</dimen>
+    <dimen name="ugc_aspect_divider">18dp</dimen>
+    <dimen name="ugc_aspect_width">44dp</dimen>
+    <dimen name="ugc_progress_cursor">2dp</dimen>
+    <dimen name="ugc_progress_divider">1dp</dimen>
+    <dimen name="ugc_progress_min_pos">2dp</dimen>
+    <string name="app_name">videorecorder</string>
+    <string name="delete">删除</string>
+    <string name="music_empty">空空如也</string>
+    <string name="music_loading">正在加载本地音乐...</string>
+    <style name="ConfirmDialogStyle" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="windowMinWidthMinor">90%</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorAccent">#0accac</item>
+    </style>
+    <style name="CustomEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorGray4</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+    <style name="RecordActivityTheme" parent="RecordStyle">
+        <item name="nextIcon">@drawable/drawable_ugc_green_next</item>
+        <item name="recordButtonTapModeInnerBackground">@color/colorAccent</item>
+        <item name="ugckitColorPrimary">@color/colorAccent</item>
+        <item name="beautyPanelColorPrimary">@color/colorAccent</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <declare-styleable name="TCActivityTitle">
+        <!-- 标题文案 -->
+        <attr format="string" name="titleText"/>
+        <!-- 是否有back按钮 -->
+        <attr format="boolean" name="canBack"/>
+        <!-- back按钮文案 -->
+        <attr format="string" name="backText"/>
+        <!-- 右侧更多功能按钮文字 -->
+        <attr format="string" name="moreText"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.videouploader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:4:5-67
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:5:5-79
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:6:5-76
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:7:5-81
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:8:5-80
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:9:5-78
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:9:22-75
+17
+18    <application>
+18-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:11:5-41:19
+19        <activity
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:13:9-15:77
+20            android:name="com.tencent.liteav.demo.videouploader.videopublish.TCVideoPublishActivity"
+20-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:14:13-64
+21            android:configChanges="keyboardHidden|orientation|screenSize" />
+21-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:15:13-74
+22        <activity
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:17:9-27:20
+23            android:name="com.tencent.liteav.demo.videouploader.videopublish.TCCompressActivity"
+23-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:18:13-60
+24            android:configChanges="keyboardHidden|orientation|screenSize"
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:20:13-74
+25            android:launchMode="singleTop" >
+25-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:19:13-43
+26            <intent-filter>
+26-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:21:13-26:29
+27                <action android:name="com.tencent.liteav.demo.videocompress" />
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:22:17-80
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:22:25-77
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:23:17-69
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:23:25-66
+29
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:25:17-76
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:25:27-73
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:29:9-31:74
+34            android:name="com.tencent.liteav.demo.videouploader.videopublish.pic.TCPicturePublishActivity"
+34-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:30:13-70
+35            android:label="@string/title_activity_txdownload" />
+35-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:31:13-62
+36
+37        <receiver android:name="com.tencent.liteav.demo.videouploader.videoupload.impl.TVCNetWorkStateReceiver" >
+37-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:33:9-40:20
+37-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:33:19-75
+38            <intent-filter>
+38-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:34:13-39:29
+39
+40                <!-- 检测网络变化的action -->
+41                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+41-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:36:17-79
+41-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:36:25-76
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:25:17-76
+43-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideouploaddemo\src\main\AndroidManifest.xml:25:27-73
+44            </intent-filter>
+45        </receiver>
+46    </application>
+47
+48</manifest>

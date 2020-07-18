@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.videojoiner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:7:5-30:19
+12        <activity
+12-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:8:9-17:20
+13            android:name="com.tencent.liteav.demo.videojoiner.TCVideoJoinerActivity"
+13-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:9:13-50
+14            android:screenOrientation="portrait" >
+14-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:10:13-49
+15            <intent-filter>
+15-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:11:13-16:29
+16                <action android:name="com.tencent.liteav.demo.videojoiner" />
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:12:17-78
+16-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:12:25-75
+17                <action android:name="android.intent.action.MAIN" />
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:13:17-69
+17-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:13:25-66
+18
+19                <category android:name="android.intent.category.DEFAULT" />
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:15:17-76
+19-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:15:27-73
+20            </intent-filter>
+21        </activity>
+22        <activity
+22-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:18:9-21:52
+23            android:name="com.tencent.liteav.demo.videojoiner.TCVideoJoinerPreviewActivity"
+23-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:19:13-57
+24            android:launchMode="singleTask"
+24-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:20:13-44
+25            android:screenOrientation="portrait" />
+25-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:21:13-49
+26        <activity
+26-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:23:9-25:51
+27            android:name="com.tencent.liteav.demo.videojoiner.TCVideoJoinChooseActivity"
+27-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:24:13-54
+28            android:screenOrientation="portrait" />
+28-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:25:13-49
+29        <activity
+29-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:27:9-29:52
+30            android:name="com.tencent.liteav.demo.videojoiner.TCVideoPreviewActivity"
+30-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:28:13-51
+31            android:screenOrientation="portrait" />
+31-->E:\Android\TXLiteAVSDK_Professional_Android_latest\LiteAVSDK_Professional_Android_7.4.9211\Demo\ugcvideojoindemo\src\main\AndroidManifest.xml:29:13-49
+32    </application>
+33
+34</manifest>
